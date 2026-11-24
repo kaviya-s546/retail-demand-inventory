@@ -4,7 +4,7 @@ A data analytics project that analyses retail sales and inventory data to foreca
 
 ## Dashboard
 
-![Inventory risk by category](images/dashboard.png)
+![Retail inventory dashboard](Dashboard.png)
 
 | Items to reorder | Stockout risk | Overstock | Total order qty |
 |---|---|---|---|
@@ -52,16 +52,10 @@ A data analytics project that analyses retail sales and inventory data to foreca
 ├── README.md
 ├── retail_demand_inventory.sql
 ├── Retail_Demand_Inventory_Report.docx
-├── data/            # sales, inventory, product master, supplier CSVs
+├── data/
 └── images/
     └── dashboard.png
 ```
-
-## How to run
-
-1. Create the tables using the schema at the top of `retail_demand_inventory.sql`.
-2. Import the CSV files from `data/` into the matching tables.
-3. Run the queries in order. The KPI query at the end of section 7 reproduces the dashboard numbers.
 
 ## Key findings
 
@@ -69,12 +63,6 @@ A data analytics project that analyses retail sales and inventory data to foreca
 - Stationery has the largest share of stockout-risk items.
 - Personal Care has the highest overstock share.
 - Stockout risk is a larger problem than overstock.
-
-## Future work
-
-- Forecasting models beyond rolling averages
-- Supplier reliability-adjusted safety stock
-- Promotion impact and cost optimisation scenarios
 
 ## Author
 
